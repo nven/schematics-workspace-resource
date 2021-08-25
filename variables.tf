@@ -33,3 +33,9 @@ variable "schematics_workspace_type" {
   type        = string
   default     =  "terraform_v0.11.14"
 }
+
+variable "TF_VERSION" {
+  default     = "0.13"
+  description = "terraform engine version to be used in schematics"
+}
+
